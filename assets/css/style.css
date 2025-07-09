@@ -1,11 +1,11 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by the browser */ 
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 /* General styles */
@@ -40,6 +40,13 @@ h1 {
     color: #252525;
 }
 
+#menu {
+    font-weight: 300;
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style: none;
+}
+
 /* Main */
 main {
     background-color: lightblue;
@@ -47,8 +54,7 @@ main {
     flex: 1 0 auto;
 }
 
-/* Footer */ 
+/* Footer */
 footer {
     background-color: orange;
 }
-
