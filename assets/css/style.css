@@ -19,7 +19,9 @@ body {
     font-weight: 300;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -104,18 +106,45 @@ main {
 #cover-text {
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
-    position: absolute; 
+    position: absolute;
     bottom: 30px;
     width: 80%;
-    min-height: 200px; 
+    min-height: 200px;
     padding-top: 40px;
-    padding-left: 10px; 
+    padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
+/* Reasons-section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons > h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-psysical > div, #benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 
 
 /* Footer */
@@ -172,13 +201,14 @@ main {
 
     /* Hero */
     #cover-text {
-        width: 300px; 
+        width: 300px;
         right: 50px;
     }
 }
 
 /* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
+
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
