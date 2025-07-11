@@ -32,6 +32,7 @@ h3 {
     display: none;
 }
 
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -199,6 +200,57 @@ main {
 
 #photos {
     line-height: 0;
+}
+
+/* Signup page */
+main {
+    display: flex; 
+    flex-direction: column;
+}
+
+/* Form */
+#signup {
+    background: url(../images/signup-image.webp) 75%/cover;
+    flex-grow: 1;
+}
+
+#signup h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    margin: 20px 10px; 
+    padding: 30px;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+}
+
+.text-input {
+    height: 20px;
+    width: 100%;
+    background-color: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px; 
+    margin-top: 5px;
+    margin-bottom: 20px; 
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    margin-top: 20px; 
+    padding: 15px 32px; 
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%; 
 }
 
 /* Footer */
